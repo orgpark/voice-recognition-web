@@ -1,0 +1,28 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+}
+.started {
+  background-image: url('./images/giphy.webp');
+}
+.compass {
+  position: fixed;
+  top: 100px;
+  right: 100px;
+  opacity: 0.8;
+}
+.imageContainer {
+  z-index: 3;
+}
+button {
+  position: fixed;
+  top: 30px;
+  opacity: 0.8;
+}
